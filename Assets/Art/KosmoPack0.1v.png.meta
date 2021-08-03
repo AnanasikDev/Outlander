@@ -1,0 +1,944 @@
+fileFormatVersion: 2
+guid: 2f9d310537f4fbc44b4e38bb99ce4880
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7422132040269590519
+    second: KosmoPack0.1v_0
+  - first:
+      213: -4578924792312382104
+    second: KosmoPack0.1v_1
+  - first:
+      213: 2971004175213155947
+    second: KosmoPack0.1v_2
+  - first:
+      213: -916645897520795713
+    second: KosmoPack0.1v_3
+  - first:
+      213: -5723608081199105691
+    second: KosmoPack0.1v_4
+  - first:
+      213: -174032537683025315
+    second: KosmoPack0.1v_5
+  - first:
+      213: 8175907003120041680
+    second: KosmoPack0.1v_6
+  - first:
+      213: -4498707319306551653
+    second: KosmoPack0.1v_7
+  - first:
+      213: 4107605593483157680
+    second: KosmoPack0.1v_8
+  - first:
+      213: 4248687320618169807
+    second: KosmoPack0.1v_9
+  - first:
+      213: -4878396982155039656
+    second: KosmoPack0.1v_10
+  - first:
+      213: 5414687362284525500
+    second: KosmoPack0.1v_11
+  - first:
+      213: 6775150062562336080
+    second: KosmoPack0.1v_12
+  - first:
+      213: -1936187703318733529
+    second: KosmoPack0.1v_13
+  - first:
+      213: 3041285437417212322
+    second: KosmoPack0.1v_14
+  - first:
+      213: 658823720998361590
+    second: KosmoPack0.1v_15
+  - first:
+      213: -8975184268116490539
+    second: KosmoPack0.1v_16
+  - first:
+      213: 2575147480573857061
+    second: KosmoPack0.1v_17
+  - first:
+      213: -5477304973239294189
+    second: KosmoPack0.1v_18
+  - first:
+      213: -2093785925816221814
+    second: KosmoPack0.1v_19
+  - first:
+      213: -8363402526047451946
+    second: KosmoPack0.1v_20
+  - first:
+      213: -426344547451396047
+    second: KosmoPack0.1v_21
+  - first:
+      213: 8514916217479404371
+    second: KosmoPack0.1v_22
+  - first:
+      213: -6915278233269474386
+    second: KosmoPack0.1v_23
+  - first:
+      213: -4875993890194170429
+    second: KosmoPack0.1v_24
+  - first:
+      213: 3353700924329712223
+    second: KosmoPack0.1v_25
+  - first:
+      213: 4271421370694027108
+    second: KosmoPack0.1v_26
+  - first:
+      213: -3338034652632648967
+    second: KosmoPack0.1v_27
+  - first:
+      213: -6701494179876424746
+    second: KosmoPack0.1v_28
+  - first:
+      213: 5523450305375464073
+    second: KosmoPack0.1v_29
+  - first:
+      213: 2647950336223794975
+    second: KosmoPack0.1v_30
+  - first:
+      213: 7543352709225260010
+    second: KosmoPack0.1v_31
+  - first:
+      213: 8351440210406034790
+    second: KosmoPack0.1v_32
+  - first:
+      213: -6096053148185137228
+    second: KosmoPack0.1v_33
+  - first:
+      213: -4888634538279490018
+    second: KosmoPack0.1v_34
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: KosmoPack0.1v_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 84
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9009fa7cb3a4ff890800000000000000
+      internalID: -7422132040269590519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KosmoPack0.1v_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 71
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86dbdfc59246470c0800000000000000
+      internalID: -4578924792312382104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KosmoPack0.1v_2
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 72
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6658c96e802b3920800000000000000
+      internalID: 2971004175213155947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KosmoPack0.1v_3
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 84
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbf247da96b6743f0800000000000000
+      internalID: -916645897520795713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KosmoPack0.1v_4
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 63
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 569729e66c8a190b0800000000000000
+      internalID: -5723608081199105691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KosmoPack0.1v_5
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 80
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d522b0c3456b59df0800000000000000
+      internalID: -174032537683025315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KosmoPack0.1v_6
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 78
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0de399df918a67170800000000000000
+      internalID: 8175907003120041680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KosmoPack0.1v_7
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 67
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9e784c37816191c0800000000000000
+      internalID: -4498707319306551653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KosmoPack0.1v_8
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 94
+        width: 3
+        height: 2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b0a8f43685210930800000000000000
+      internalID: 4107605593483157680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KosmoPack0.1v_9
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 91
+        width: 3
+        height: 2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc5f62b8b9e56fa30800000000000000
+      internalID: 4248687320618169807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KosmoPack0.1v_10
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 94
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85caf45aac37c4cb0800000000000000
+      internalID: -4878396982155039656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KosmoPack0.1v_11
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 94
+        width: 1
+        height: 2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb714ceb775d42b40800000000000000
+      internalID: 5414687362284525500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KosmoPack0.1v_12
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 91
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05d5efae51b260e50800000000000000
+      internalID: 6775150062562336080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KosmoPack0.1v_13
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 88
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72d153dca874125e0800000000000000
+      internalID: -1936187703318733529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KosmoPack0.1v_14
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 88
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a942ddedf0d43a20800000000000000
+      internalID: 3041285437417212322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KosmoPack0.1v_15
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 89
+        width: 1
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f955b30fac942900800000000000000
+      internalID: 658823720998361590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KosmoPack0.1v_16
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 87
+        width: 3
+        height: 2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d60e31f57db17380800000000000000
+      internalID: -8975184268116490539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KosmoPack0.1v_17
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 83
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52dc8d76df2ccb320800000000000000
+      internalID: 2575147480573857061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KosmoPack0.1v_18
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 83
+        width: 3
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31767979524bcf3b0800000000000000
+      internalID: -5477304973239294189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KosmoPack0.1v_19
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 83
+        width: 3
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8ff2083bc061f2e0800000000000000
+      internalID: -2093785925816221814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KosmoPack0.1v_20
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 79
+        width: 2
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d44659b6b93feb80800000000000000
+      internalID: -8363402526047451946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KosmoPack0.1v_21
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 80
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1302c3994e1551af0800000000000000
+      internalID: -426344547451396047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KosmoPack0.1v_22
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 80
+        width: 1
+        height: 2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35b92139f2f0b2670800000000000000
+      internalID: 8514916217479404371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KosmoPack0.1v_23
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 80
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eab6bf6e51ff700a0800000000000000
+      internalID: -6915278233269474386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KosmoPack0.1v_24
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 68
+        width: 5
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cd5008146df45cb0800000000000000
+      internalID: -4875993890194170429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KosmoPack0.1v_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 59
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5a5295d83dba8e20800000000000000
+      internalID: 3353700924329712223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KosmoPack0.1v_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 49
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 467ca3e0b13274b30800000000000000
+      internalID: 4271421370694027108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KosmoPack0.1v_27
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 50
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f2f2e94b2beca1d0800000000000000
+      internalID: -3338034652632648967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KosmoPack0.1v_28
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 50
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d33e18ac828ff2a0800000000000000
+      internalID: -6701494179876424746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KosmoPack0.1v_29
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 48
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98a6d6ac9cc37ac40800000000000000
+      internalID: 5523450305375464073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KosmoPack0.1v_30
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 51
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f17de752dc86fb420800000000000000
+      internalID: 2647950336223794975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KosmoPack0.1v_31
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 51
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae32ad8925f5fa860800000000000000
+      internalID: 7543352709225260010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KosmoPack0.1v_32
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 41
+        width: 55
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66d4a20af9646e370800000000000000
+      internalID: 8351440210406034790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KosmoPack0.1v_33
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 52
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bfe582c5f7766ba0800000000000000
+      internalID: -6096053148185137228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KosmoPack0.1v_34
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 68
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1e252dd9c4182cb0800000000000000
+      internalID: -4888634538279490018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
