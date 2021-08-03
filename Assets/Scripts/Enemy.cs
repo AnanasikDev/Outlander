@@ -7,6 +7,9 @@ public class Enemy : MonoBehaviour
     [SerializeField] public float Damage = 0.2f;
 
     [SerializeField] protected ParticleSystem DestroyEffect;
+    
+    [SerializeField] protected float Torque;
+
     private void Start()
     {
         SetDirection();
@@ -16,20 +19,21 @@ public class Enemy : MonoBehaviour
     }
     private void SetTorque()
     {
-        GetComponent<Rigidbody2D>().AddTorque(Random.value);
+        Torque = Random.Range(Torque * -0.8f, Torque * 1.2f);
     }
     private void FixedUpdate()
     {
+        transform.localEulerAngles += Vector3.forward * Torque;
         Move();
     }
     protected virtual void SetDirection()
     {
-        Direction = Vector3.RotateTowards(transform.position, (transform.position - PlayerController.instance.transform.position), 10, 0).normalized;
+        Direction = -Vector3.RotateTowards(transform.position, (transform.position - PlayerController.instance.transform.position), 10, 0).normalized;
         Direction.z = 0;
     }
     protected virtual void Move()
     {
-        transform.Translate(Direction * Speed);
+        transform.Translate(Direction * Speed, Space.World);
     }
     public void SetSpeed(float speed)
     {

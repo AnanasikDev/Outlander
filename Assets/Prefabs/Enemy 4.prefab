@@ -126,6 +126,7 @@ MonoBehaviour:
   Speed: 3
   Damage: 0.2
   DestroyEffect: {fileID: 1099575492774388697}
+  Torque: 6
 --- !u!50 &2639988452451983630
 Rigidbody2D:
   serializedVersion: 4
