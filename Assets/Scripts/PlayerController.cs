@@ -8,12 +8,12 @@ public class PlayerController : PlayerHealth
     private void Awake() => instance = this;
     private void Start()
     {
-        Cursor.visible = false;
         InitHealth();
     }
     private void Update()
     {
-        FollowCursor();
+        if (Settings.IsPlaying)
+            FollowCursor();
     }
     private void FollowCursor()
     {

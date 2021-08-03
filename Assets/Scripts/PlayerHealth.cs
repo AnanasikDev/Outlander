@@ -16,7 +16,7 @@ public class PlayerHealth : MonoBehaviour
 
             if (Mathf.Approximately(_healthPoints, 0))
             {
-                Debug.LogWarning("end");
+                Die();
             }
         }
     }
@@ -27,7 +27,7 @@ public class PlayerHealth : MonoBehaviour
     [SerializeField] float HealFreq = 0.25f;
     [SerializeField] float HealValue = 0.1f;
 
-    
+    [SerializeField] private GameObject LooseScreen;
     protected void InitHealth()
     {
         HealthImageLength = HealthImage.GetComponent<RectTransform>().rect.width;
@@ -54,7 +54,10 @@ public class PlayerHealth : MonoBehaviour
     }
     private void Die()
     {
-
+        LooseScreen.SetActive(true);
+        Time.timeScale = 0;
+        Settings.IsPlaying = false;
+        Cursor.visible = true;
     }
 
     private void OnCollisionEnter2D(Collision2D other)
