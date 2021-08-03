@@ -421,7 +421,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SpawnableEnemies:
   - {fileID: 3199077725767046233, guid: d19b9216839706544a1d484d974ff363, type: 3}
-  SpawnRadiusLimits: {x: 500, y: 800}
+  SpawnRadiusLimits: {x: 1100, y: 1400}
   EnemiesHandler: {fileID: 1418804995}
   StartSpawnDelay: 1
   SpawnFreq: 3
@@ -504,6 +504,31 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   HardnessUpdateTimeDelay: 6
+  EnemiesSpeedCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0.00579834
+      value: 0.5109253
+      inSlope: 1.7097608
+      outSlope: 1.7097608
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.9803467
+      value: 2.1771698
+      inSlope: 1.7097608
+      outSlope: 1.7097608
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  EnemySpeed: 3
   CurrentCurvePosition: 0
   CurveLength: 1
   CurveStep: 0.05

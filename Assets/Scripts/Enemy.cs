@@ -8,7 +8,7 @@ public class Enemy : MonoBehaviour
     {
         SetDirection();
 
-        Destroy(gameObject, 10);
+        Destroy(gameObject, 25);
     }
     private void FixedUpdate()
     {
@@ -22,5 +22,9 @@ public class Enemy : MonoBehaviour
     protected virtual void Move()
     {
         transform.Translate(Direction * Speed);
+    }
+    public void SetSpeed(float speed)
+    {
+        Speed = speed;
     }
 }

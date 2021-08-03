@@ -85,7 +85,6 @@ GameObject:
   m_Component:
   - component: {fileID: 6928864374295929584}
   - component: {fileID: 3199077725767046233}
-  - component: {fileID: 3705817658656862438}
   - component: {fileID: 1915145630}
   m_Layer: 0
   m_Name: Enemy 1
@@ -123,22 +122,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Direction: {x: 0, y: 0, z: 0}
   Speed: 3
---- !u!58 &3705817658656862438
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4898115422221035765}
-  m_Enabled: 0
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: -2.29, y: 0}
-  serializedVersion: 2
-  m_Radius: 23
 --- !u!68 &1915145630
 EdgeCollider2D:
   m_ObjectHideFlags: 0

@@ -13,6 +13,10 @@ public class EnemiesSpawner : MonoBehaviour
     [SerializeField] private AnimationCurve HardnessCurve;
     [SerializeField] private int HardnessUpdateTimeDelay = 15;
 
+    [SerializeField] private AnimationCurve EnemiesSpeedCurve;
+    [SerializeField] private float EnemySpeed = 1;
+    private float EnemySpeedStatic = 1;
+
     [SerializeField] private float CurrentCurvePosition = 0;
     [SerializeField] private float CurveLength = 1;
     [SerializeField] private float CurveStep = 0.1f;
@@ -31,6 +35,7 @@ public class EnemiesSpawner : MonoBehaviour
         SpawnFreq = 1 / SpawnFreq;
 
         SpawnFreqStatic = SpawnFreq;
+        EnemySpeedStatic = EnemySpeed;
 
         BeginSpawning();
     }
@@ -66,10 +71,14 @@ public class EnemiesSpawner : MonoBehaviour
         Vector2 enemyPosition = GetPosition();
 
         Enemy enemySpawned = Instantiate(enemyPrefab, enemyPosition, GetEnemyRotation(), EnemiesHandler);
+        enemySpawned.SetSpeed(EnemySpeed);
     }
     protected virtual void UpdateHardness()
     {
         Hardness = HardnessCurve.Evaluate(Mathf.Repeat(CurrentCurvePosition, CurveLength));
         CurrentCurvePosition += CurveStep;
+
+
+        EnemySpeed = EnemySpeedStatic * EnemiesSpeedCurve.Evaluate(Mathf.Repeat(CurrentCurvePosition, CurveLength));
     }
 }
