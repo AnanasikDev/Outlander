@@ -813,8 +813,8 @@ MonoBehaviour:
   - {fileID: 3199077725767046233, guid: 3cad00fdd76d7124693b037a2752925a, type: 3}
   SpawnRadiusLimits: {x: 800, y: 1100}
   EnemiesHandler: {fileID: 1418804995}
-  StartSpawnDelay: 1
-  SpawnFreq: 3
+  StartSpawnDelay: 0
+  SpawnFreq: 6
   HardnessCurve:
     serializedVersion: 2
     m_Curve:
@@ -929,7 +929,7 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  HardnessUpdateTimeDelay: 3
+  HardnessUpdateTimeDelay: 1
   EnemiesSpeedCurve:
     serializedVersion: 2
     m_Curve:
@@ -1093,7 +1093,7 @@ MonoBehaviour:
   CurrentCurvePosition: 0
   HardnessCurveLength: 3.5
   EnemySpeedCurveLength: 14
-  CurveStep: 0.015
+  CurveStep: 0.01
 --- !u!1 &1078999947
 GameObject:
   m_ObjectHideFlags: 0
@@ -1225,7 +1225,7 @@ RectTransform:
   m_GameObject: {fileID: 1142413318}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 3, y: 3, z: 1}
+  m_LocalScale: {x: 4, y: 4, z: 1}
   m_Children:
   - {fileID: 188670342}
   - {fileID: 2054194923}
@@ -1251,8 +1251,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _healthPoints: 1
   HealthImage: {fileID: 1322782731}
-  HealFreq: 0.5
-  HealValue: 0.1
+  HealFreq: 0.15
+  HealValue: 0.05
   LooseScreen: {fileID: 451147186}
 --- !u!50 &1142413321
 Rigidbody2D:
