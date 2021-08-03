@@ -2,19 +2,19 @@
 using UnityEngine.UI;
 public class PlayerHealth : MonoBehaviour
 {
-    [SerializeField] private float healthPoints = 1;
+    [SerializeField] private float _healthPoints = 1;
     protected float HealthPoints
     {
         get
         {
-            return healthPoints;
+            return _healthPoints;
         }
         set
         {
-            healthPoints = Mathf.Clamp((float)System.Math.Round(value, 2), 0, 1);
+            _healthPoints = Mathf.Clamp((float)System.Math.Round(value, 2), 0, 1);
             SetHealthBar();
 
-            if (Mathf.Approximately(healthPoints, 0))
+            if (Mathf.Approximately(_healthPoints, 0))
             {
                 Debug.LogWarning("end");
             }
@@ -22,11 +22,17 @@ public class PlayerHealth : MonoBehaviour
     }
     
     [SerializeField] private Image HealthImage;
+    private float HealthImageLength;
 
-    public float HealthImageLength;
+    [SerializeField] float HealFreq = 0.25f;
+    [SerializeField] float HealValue = 0.1f;
+
+    
     protected void InitHealth()
     {
         HealthImageLength = HealthImage.GetComponent<RectTransform>().rect.width;
+        HealFreq = 1 / HealFreq;
+        InvokeRepeating("Heal", HealFreq, HealFreq);
     }
 
     private void SetHealthBar()
@@ -42,12 +48,22 @@ public class PlayerHealth : MonoBehaviour
     {
         HealthPoints -= damage;
     }
+    private void Heal()
+    {
+        HealthPoints += HealValue;
+    }
+    private void Die()
+    {
+
+    }
 
     private void OnCollisionEnter2D(Collision2D other)
     {
         if (other.gameObject.TryGetComponent<Enemy>(out Enemy enemy))
         {
             TakeDamage(enemy.Damage);
+
+            enemy.Destroy();
         }
     }
 }

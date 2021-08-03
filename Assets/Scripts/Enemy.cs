@@ -5,11 +5,18 @@ public class Enemy : MonoBehaviour
     [SerializeField] protected Vector3 Direction;
     [SerializeField] protected float Speed;
     [SerializeField] public float Damage = 0.2f;
+
+    [SerializeField] protected ParticleSystem DestroyEffect;
     private void Start()
     {
         SetDirection();
+        SetTorque();
 
         Destroy(gameObject, 25);
+    }
+    private void SetTorque()
+    {
+        GetComponent<Rigidbody2D>().AddTorque(Random.value);
     }
     private void FixedUpdate()
     {
@@ -27,5 +34,13 @@ public class Enemy : MonoBehaviour
     public void SetSpeed(float speed)
     {
         Speed = speed;
+    }
+    public void Destroy()
+    {
+        DestroyEffect.Play();
+        DestroyEffect.transform.SetParent(null);
+
+        Destroy(gameObject);
+        Destroy(DestroyEffect.gameObject, 3);
     }
 }
