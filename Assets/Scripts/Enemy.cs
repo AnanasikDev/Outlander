@@ -4,6 +4,7 @@ public class Enemy : MonoBehaviour
 {
     [SerializeField] protected Vector3 Direction;
     [SerializeField] protected float Speed;
+    [SerializeField] public float Damage = 0.2f;
     private void Start()
     {
         SetDirection();

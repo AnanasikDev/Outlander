@@ -1,12 +1,15 @@
 ﻿using UnityEngine;
 
-public class PlayerController : MonoBehaviour
+[RequireComponent(typeof(Rigidbody2D))]
+[RequireComponent(typeof(Collider2D))]
+public class PlayerController : PlayerHealth
 {
     public static PlayerController instance { get; private set; }
     private void Awake() => instance = this;
     private void Start()
     {
         Cursor.visible = false;
+        InitHealth();
     }
     private void Update()
     {
@@ -15,12 +18,5 @@ public class PlayerController : MonoBehaviour
     private void FollowCursor()
     {
         transform.position = Input.mousePosition;
-    }
-    private void OnCollisionEnter2D(Collision2D other)
-    {
-        if (other.gameObject.TryGetComponent<Enemy>(out Enemy enemy))
-        {
-            Debug.Log("The End");
-        }
     }
 }
