@@ -35,7 +35,7 @@ public class Enemy : MonoBehaviour
     {
         Speed = speed;
     }
-    public void Destroy()
+    public virtual void Destroy()
     {
         DestroyEffect.Play();
         DestroyEffect.transform.SetParent(null);

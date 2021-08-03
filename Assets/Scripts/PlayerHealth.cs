@@ -58,9 +58,11 @@ public class PlayerHealth : MonoBehaviour
         Time.timeScale = 0;
         Settings.IsPlaying = false;
         Cursor.visible = true;
+
+        ScoreController.instance.UpdateLooseScreenScore();
     }
 
-    private void OnCollisionEnter2D(Collision2D other)
+    protected virtual void OnCollisionEnter2D(Collision2D other)
     {
         if (other.gameObject.TryGetComponent<Enemy>(out Enemy enemy))
         {
